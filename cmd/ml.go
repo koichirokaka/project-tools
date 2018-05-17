@@ -30,11 +30,9 @@ var mlCmd = &cobra.Command{
 	* vscode settings
 	* gitignore`,
 	Run: func(cmd *cobra.Command, args []string) {
-		name, err := cmd.Flags().GetString("name")
+		name, err := projectName(cmd)
 		if err != nil {
 			log.Fatal(err)
-		} else if name == "" {
-			log.Fatal("name flag is required")
 		}
 		if err := create(name, mlproject); err != nil {
 			log.Fatal(err)

@@ -2,3 +2,5 @@ embeded:
   ml:
     - environment.yml
 cmd:
+  ml:
+    - git init
