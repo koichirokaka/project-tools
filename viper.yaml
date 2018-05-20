@@ -1,6 +1,7 @@
 embeded:
   ml:
     - environment.yml
+    - README.md
   ml-engine:
     - environment.yml
     - setup.py
