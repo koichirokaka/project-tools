@@ -1,6 +1,10 @@
 embeded:
   ml:
     - environment.yml
+  ml-engine:
+    - environment.yml
+    - setup.py
+    - README.md
 cmd:
   ml:
     - git init

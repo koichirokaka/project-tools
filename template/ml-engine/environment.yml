@@ -1,0 +1,9 @@
+name: %s
+dependencies:
+  - 'anaconda::h5py==2.7.0'
+  - 'anaconda::python=3.5'
+  - 'anaconda::setuptools'
+  - pip:
+      - autopep8
+      - pylint
+      - tensorflow>=1.8

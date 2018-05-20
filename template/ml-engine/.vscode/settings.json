@@ -1,5 +1,4 @@
 {
-  "yaml.validate": false,
   "python.pythonPath": "${env.CONDA_PREFIX}/bin/python",
   "python.formatting.autopep8Path": "${env.CONDA_PREFIX}/bin/autopep8",
   "python.formatting.autopep8Args": ["--indent-size=2"],

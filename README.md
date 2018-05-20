@@ -15,6 +15,6 @@ go get -u github.com/koichirokaka/project-tools
 
 | feature | readyness |
 | ------| ------------|
-| ML | done |
+| ML/Cloud ML | done |
 | GAE/GKE | not yet |
 | Angular/React | not yet |

@@ -1,0 +1,6 @@
+trainingInput:
+  jobDir: keras
+  pythonVersion: '3.5'
+  region: us-central1
+  runtimeVersion: '1.8'
+  scaleTier: BASIC

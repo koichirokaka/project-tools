@@ -49,6 +49,7 @@ func init() {
 	// Order is important because can't use viper config without calling initConfig.
 	initConfig()
 	initml()
+	initmlengine()
 
 	rootCmd.PersistentFlags().StringP("name", "n", "", "project name")
 	// Cobra also supports local flags, which will only run
